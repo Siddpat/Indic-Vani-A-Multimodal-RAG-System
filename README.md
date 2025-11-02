@@ -7,8 +7,7 @@ Indic-Vani is a multimodal (Text + Image) Retrieval-Augmented Generation (RAG) c
 This project was built to explore and demonstrate the core technologies at Krutrim like Vyakyarth Embedding model, including RAG, multimodal search, and Gradio prototyping.
 
 ## Live Demo (GIF)
-
-ADD VIDEO HERE
+![](/vani_working_demo.gif)
 
 ###  Architecture
 
