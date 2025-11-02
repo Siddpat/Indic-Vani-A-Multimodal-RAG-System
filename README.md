@@ -31,35 +31,44 @@ The retrieved text chunk and the user's query are formatted into a prompt.
 
 A generator model (**bigscience/bloomz-560m**) reads this context and generates a descriptive, natural-language answer.
 
-The Gradio UI displays both the generated text and the retrieved image.
+The **Gradio UI** displays both the generated text and the retrieved image.
 
 ## How to Run
 
+
+This will render as a distinct code block with syntax highlighting for Python.
+
+
+
 Clone the repository:
-
-git clone https://github.com/Siddpat/Indic-Vani-A-Multimodal-RAG-System/
+```
+git clone https://github.com/Siddpat/Indic-Vani-A-Multimodal-RAG-System/)
 cd indic-vani-project
-
+```
 
 
 ## Create a virtual environment and install dependencies:
 
 ### Create venv
+```
 python3 -m venv venv
 source venv/bin/activate
-
+```
 ### Install requirements
+```
 pip install -r requirements.txt
+```
 
 
-
-## (Manual Step) Add Images:
+## Add Images:
+(Manual Step)
 Create a folder named images in the root of the project.
 Add 3-5 .jpg or .png files related to Mughal architecture (e.g., taj_mahal.jpg, charbagh_layout.jpg).
 
 ### Run the App:
+```
 python app.py
-
+```
 
 
 On the first run, the script will automatically scrape the Hindi Wikipedia article, create the text database, and create the image database.
@@ -68,7 +77,7 @@ On all future runs, it will skip this step and launch instantly.
 
 ### Open the App:
 
-Open the local URL printed in your terminal (e.g., http://127.0.0.1:7860).
+Open the local URL printed in your terminal (e.g., ```http://127.0.0.1:7860```).
 
  
 ## Key Challenges & Learnings
