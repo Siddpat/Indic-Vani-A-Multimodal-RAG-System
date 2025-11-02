@@ -1,0 +1,9 @@
+gradio
+transformers
+sentence-transformers
+numpy
+faiss-cpu
+torch
+beautifulsoup4
+requests
+Pillow
